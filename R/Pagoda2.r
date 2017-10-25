@@ -22,6 +22,7 @@ Pagoda2 <- setRefClass(
   fields=c('counts','clusters','graphs','reductions','embeddings','diffgenes',
            'pathways','n.cores','misc','batch','modelType','verbose','depth','batchNorm','mat','genegraphs'),
 
+
   methods = list(
     initialize=function(x, ..., modelType='plain', batchNorm='glm',
                         n.cores=30, verbose=TRUE,
